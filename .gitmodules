@@ -1,0 +1,9 @@
+[submodule "canjs"]
+	path = canjs
+	url = https://github.com/bitovi/canjs.git
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/twbs/bootstrap.git
+[submodule "steal"]
+	path = steal
+	url = https://github.com/bitovi/steal.git

@@ -1,4 +1,4 @@
 canjs-bootstrap
 ===============
 
-Bootstrap with canJS Interface
+Bootstrap with CanJS Interface
