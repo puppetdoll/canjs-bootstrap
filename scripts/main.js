@@ -1,11 +1,12 @@
 requirejs.config({
-  baseUrl: 'scripts',
+  baseUrl: 'scripts/lib',
   paths: {
-    'can': 'lib/canjs.com-2.1.2/amd/can'
+    can: 'canjs.com-2.1.2/amd/can',
+    stache: 'stache'
   }
 });
 
-requirejs(['scripts/lib/jquery-1.11.1.js', 'lib/canjs.com-2.1.2/amd/can', 'scripts/components/components'],
+requirejs(['scripts/lib/jquery-1.11.1.js', 'canjs.com-2.1.2/amd/can', '../components/components'],
   function($, can) {
 
 });
